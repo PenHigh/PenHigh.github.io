@@ -9,7 +9,7 @@ const NavBar = () => (
     <div
       className={styles.navbar}
     >
-      {/* Left side */}
+      {/* Left Side (Logo) */}
       <div>
         <Link
           className={styles.logo}
@@ -18,12 +18,19 @@ const NavBar = () => (
           PHS Coding Club
         </Link>
       </div>
-      {/* Right side */}
+      {/* Right Side (Links) */}
       <div
         className={styles.links}
       >
+        {/* Home Page Navigation */}
         <NavBarButton link="/#about">
           About
+        </NavBarButton>
+        <NavBarButton link="/#members">
+          Members
+        </NavBarButton>
+        <NavBarButton link="/#contact">
+          Contact
         </NavBarButton>
       </div>
     </div>
