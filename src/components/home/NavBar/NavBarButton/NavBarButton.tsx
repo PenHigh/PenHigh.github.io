@@ -16,7 +16,11 @@ const NavBarButton = (props: NavBarButtonProps) => {
       href={link}
       className={styles.link}
     >
-      {children}
+      <div
+        className={styles.button}
+      >
+        {children}
+      </div>
     </Link>
   );
 };
