@@ -1,9 +1,16 @@
 import React from 'react';
 import type { AppProps } from 'next/app';
+import { Signika } from '@next/font/google';
 
 import '../styles/globals.css';
 
-export default function App({ Component, pageProps }: AppProps) {
-  // eslint-disable-next-line react/jsx-props-no-spreading
-  return <Component {...pageProps} />;
-}
+const signikaFont = Signika();
+
+
+const App = ({ Component, pageProps }: AppProps) => (
+  <div className={signikaFont.className}>
+    <Component {...pageProps} />;
+  </div>
+);
+
+export default App;
