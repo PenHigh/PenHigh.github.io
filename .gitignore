@@ -2,10 +2,10 @@
 node_modules/
 
 # -=- NextJS -=-
-.next/**
+**/.next/**
 
 # -=- Enviornment Variables -=-
-.env.local
+**/.env.local
 
 # -=- Mac OS X -=-
 .DS_Store
