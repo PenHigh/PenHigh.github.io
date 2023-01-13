@@ -5,7 +5,9 @@ import NavBarButton from './NavBarButton/NavBarButton';
 import styles from './NavBar.module.css';
 
 const NavBar = () => (
-  <nav>
+  <nav
+    className={styles.nav}
+  >
     <div
       className={styles.navbar}
     >
