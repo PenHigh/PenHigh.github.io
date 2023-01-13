@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import NavBarButton from './NavBarButton/NavBarButton';
 import styles from './NavBar.module.css';
@@ -10,12 +11,12 @@ const NavBar = () => (
     >
       {/* Left side */}
       <div>
-        <a
+        <Link
           className={styles.logo}
           href="/#"
         >
           PHS Coding Club
-        </a>
+        </Link>
       </div>
       {/* Right side */}
       <div
