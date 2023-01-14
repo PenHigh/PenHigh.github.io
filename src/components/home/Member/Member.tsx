@@ -1,11 +1,11 @@
 import React from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 
 import styles from './Member.module.css';
 
 interface MemberProps {
   name: string;
-  image: string;
+  image: StaticImageData;
   bio: string;
 }
 

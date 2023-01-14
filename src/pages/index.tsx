@@ -3,6 +3,8 @@ import React from 'react';
 import NavBar from '../components/home/NavBar/NavBar';
 import Member from '../components/home/Member/Member';
 import styles from '../styles/Home.module.css';
+import tobyLogo from '../public/static/members/tobycm.png';
+import evanLogo from '../public/static/members/evan.png';
 
 const Home = () => (
   <div>
@@ -50,12 +52,12 @@ const Home = () => (
       >
         <Member
           name="Evan"
-          image="/members/evan.png"
+          image={evanLogo}
           bio="I don't know how I got here"
         />
         <Member
           name="Toby"
-          image="/members/tobycm.png"
+          image={tobyLogo}
           bio="Same lmao"
         />
       </div>

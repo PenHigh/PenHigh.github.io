@@ -1,6 +1,6 @@
 @font-face {
   font-family: "VNF-Comic Sans";
-  src: url("../public/fonts/VNF-Comic Sans.ttf") format("truetype");
+  src: url("../public/static/fonts/VNF-Comic\ Sans.ttf") format("truetype");
 }
 
 * {
