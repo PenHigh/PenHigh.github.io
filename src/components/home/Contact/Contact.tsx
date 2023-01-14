@@ -3,9 +3,7 @@ import React from 'react';
 import styles from './Contact.module.css';
 
 const Contact = () => (
-  <div
-    className={styles.member}
-  >
+  <div className={styles.contact}>
     <p>
       Toby is on Discord at
       {' '}
