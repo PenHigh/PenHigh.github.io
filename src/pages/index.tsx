@@ -50,13 +50,12 @@ const Home = () => (
       >
         <Member
           name="Evan"
-          // Temporary image
-          image="./members/evan.png"
+          image="/public/members/evan.png"
           bio="I don't know how I got here"
         />
         <Member
           name="Toby"
-          image="./members/tobycm.png"
+          image="/public/members/tobycm.png"
           bio="Same lmao"
         />
       </div>

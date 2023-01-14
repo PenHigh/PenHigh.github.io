@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 import styles from './Member.module.css';
 
@@ -16,11 +15,9 @@ const Member = (props: MemberProps) => {
     <div
       className={styles.member}
     >
-      <Image
+      <img
         src={image}
         alt={name}
-        width={200}
-        height={200}
         className={styles.image}
       />
       <div
