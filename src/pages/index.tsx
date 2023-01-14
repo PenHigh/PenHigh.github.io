@@ -2,7 +2,6 @@ import React from 'react';
 
 import NavBar from '../components/home/NavBar/NavBar';
 import Member from '../components/home/Member/Member';
-import Contact from '../components/home/Contact/Contact';
 import styles from '../styles/Home.module.css';
 
 const Home = () => (
