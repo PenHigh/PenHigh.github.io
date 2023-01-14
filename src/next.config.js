@@ -3,15 +3,15 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: '',
   images: {
-    loader: 'akamai',
+    loader: 'custom',
     path: '/',
-    env: {
-      nextImageExportOptimizer_imageFolderPath: 'public/images',
-      nextImageExportOptimizer_exportFolderPath: 'out',
-      nextImageExportOptimizer_quality: 75,
-      nextImageExportOptimizer_storePicturesInWEBP: true,
-      nextImageExportOptimizer_generateAndUseBlurImages: true,
-    },
+  },
+  env: {
+    nextImageExportOptimizer_imageFolderPath: 'public/images',
+    nextImageExportOptimizer_exportFolderPath: 'out',
+    nextImageExportOptimizer_quality: 75,
+    nextImageExportOptimizer_storePicturesInWEBP: true,
+    nextImageExportOptimizer_generateAndUseBlurImages: true,
   },
 };
 
