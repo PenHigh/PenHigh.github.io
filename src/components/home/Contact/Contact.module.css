@@ -1,0 +1,35 @@
+.member {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  display: block;
+  padding: 10px;
+  position: relative;
+  width: 14rem;
+  height: 18rem;
+}
+
+.image {
+  border-radius: 50%;
+  display: block;
+  width: 12rem;
+  height: 12rem;
+  margin: 0.5rem auto;
+}
+
+.name {
+  color: #333;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0.5rem auto;
+}
+
+.bio {
+  color: #666;
+  display: block;
+  font-size: 14px;
+  margin: 0.5rem auto;
+  margin-bottom: 0rem;
+}
