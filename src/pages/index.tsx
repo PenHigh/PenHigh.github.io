@@ -50,12 +50,12 @@ const Home = () => (
       >
         <Member
           name="Evan"
-          image="/public/members/evan.png"
+          image="../members/evan.png"
           bio="I don't know how I got here"
         />
         <Member
           name="Toby"
-          image="/public/members/tobycm.png"
+          image="../members/tobycm.png"
           bio="Same lmao"
         />
       </div>
