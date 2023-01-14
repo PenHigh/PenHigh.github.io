@@ -54,6 +54,11 @@ const Home = () => (
           image="/members/evan.png"
           bio="I don't know how I got here"
         />
+        <Member
+          name="Toby"
+          image="/members/tobycm.png"
+          bio="Same lmao"
+        />
       </div>
     </div>
 
