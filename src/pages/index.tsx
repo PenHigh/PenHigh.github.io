@@ -70,13 +70,19 @@ const Home = () => (
         Contact
       </span>
 
-      <div
-        className={styles.contact}
-      >
-        <Contact />
-      </div>
+      <p className={styles.section}>
+        If you have any questions, please drop by room 133 during lunch on Tuesdays and Thursdays.
+      </p>
     </div>
 
+    <div
+      id="footer"
+      className={styles.footer}
+    >
+      <span>
+        PHS Coding Club - Empowering Students Through Technology
+      </span>
+    </div>
   </div>
 );
 
