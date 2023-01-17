@@ -7,7 +7,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>PHS Coding Club</title>
+        <title>PSS Coding Club</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="The PHS Coding Club is a club that teaches students how to code and develop their own projects." />

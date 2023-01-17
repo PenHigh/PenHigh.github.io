@@ -17,7 +17,7 @@ const NavBar = () => (
           className={styles.logo}
           href="/#"
         >
-          PHS Coding Club
+          PSS Coding Club
         </Link>
       </div>
       {/* Right Side (Links) */}

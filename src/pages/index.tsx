@@ -5,6 +5,7 @@ import Member from '../components/home/Member/Member';
 import styles from '../styles/Home.module.css';
 import tobyLogo from '../public/static/members/tobycm.png';
 import evanLogo from '../public/static/members/evan.png';
+import MostLeVertLogo from '../public/static/members/MostLeVert_LogoVISUALCENTER.png';
 
 const Home = () => (
   <div>
@@ -12,7 +13,7 @@ const Home = () => (
 
     <div className={styles.title}>
       <span>
-        Welcome to the PHS Coding Club
+        Welcome to the PSS Coding Club
       </span>
     </div>
 
@@ -60,6 +61,11 @@ const Home = () => (
           image={tobyLogo}
           bio="Same lmao"
         />
+        <Member 
+          name="MostLeVert"
+          image={MostLeVertLogo}
+          bio="I don't like Comic Sans"
+        />
       </div>
     </div>
 
@@ -80,7 +86,7 @@ const Home = () => (
       className={styles.footer}
     >
       <span>
-        PHS Coding Club - Empowering Students Through Technology
+        <a href="https://github.com/PenHigh/PenHigh.github.io">PSS Coding Club <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'/></a>| Penticton Secondary - Empowering Students Through Technology
       </span>
     </div>
   </div>
