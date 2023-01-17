@@ -36,6 +36,7 @@ module.exports = {
     'react/function-component-definition': 'off',
     'no-param-reassign': 0,
     '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+    'linebreak-style': 0
   },
   settings: {
     'import/resolver': {

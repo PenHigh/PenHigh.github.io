@@ -61,7 +61,7 @@ const Home = () => (
           image={tobyLogo}
           bio="Same lmao"
         />
-        <Member 
+        <Member
           name="MostLeVert"
           image={MostLeVertLogo}
           bio="I don't like Comic Sans"
@@ -86,7 +86,11 @@ const Home = () => (
       className={styles.footer}
     >
       <span>
-        <a href="https://github.com/PenHigh/PenHigh.github.io">PSS Coding Club <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'/></a>| Penticton Secondary - Empowering Students Through Technology
+        <a href="https://github.com/PenHigh/PenHigh.github.io">
+          PSS Coding Club
+          <img alt="" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
+        </a>
+        | Penticton Secondary - Empowering Students Through Technology
       </span>
     </div>
   </div>
