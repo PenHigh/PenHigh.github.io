@@ -20,9 +20,7 @@ const NavBar = () => {
           </Link>
         </div>
         {/* Right Side (Links) */}
-        <div
-          className={styles.links}
-        >
+        <div className={styles.links}>
           {/* Home Page Navigation */}
           <NavBarButton link="/#about">
             About
