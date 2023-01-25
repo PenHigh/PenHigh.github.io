@@ -8,12 +8,8 @@ const NavBar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <nav
-      className={styles.nav}
-    >
-      <div
-        className={`${styles.navbar} ${isExpanded ? styles.navbarExpanded : ''}`}
-      >
+    <nav className={styles.nav}>
+      <div className={`${styles.navbar} ${isExpanded ? styles.navbarExpanded : ''}`}>
         {/* Left Side (Logo) */}
         <div>
           <Link
@@ -63,9 +59,7 @@ const NavBar = () => {
       {/* Mobile Navigation */}
       {
         isExpanded && (
-          <div
-            className={styles.mobileLinks}
-          >
+          <div className={styles.mobileLinks}>
             <NavBarButton link="/#about">
               About
             </NavBarButton>
