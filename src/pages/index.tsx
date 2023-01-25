@@ -90,7 +90,7 @@ const Home = () => (
           PSS Coding Club
           <img alt="" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
         </a>
-        | Penticton Secondary - Empowering Students Through Technology
+        Penticton Secondary - Empowering Students Through Technology
       </span>
     </div>
   </div>

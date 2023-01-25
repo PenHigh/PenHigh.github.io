@@ -93,6 +93,12 @@
   justify-content: center;
 }
 
+.footer span a:after {
+  content: "|";
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .footer span a {
   display: flex;
   justify-content: center;
@@ -102,4 +108,31 @@
 .footer span a img {
   width: 20px;
   margin-left: 3.25px;
+}
+
+@media (max-width: 768px) {
+  .members {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .header {
+    font-size: 3rem;
+  }
+
+  .subheader {
+    font-size: 2.5rem;
+  }
+
+  .footer span a:after {
+    content: "";
+  }  
+
+  .footer span {
+    flex-direction: column;
+    text-align: center;
+  }
 }
