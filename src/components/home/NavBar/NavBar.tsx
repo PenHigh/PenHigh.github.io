@@ -12,7 +12,7 @@ const NavBar = () => {
       className={styles.nav}
     >
       <div
-        className={styles.navbar}
+        className={`${styles.navbar} ${isExpanded ? styles.navbarExpanded : ''}`}
       >
         {/* Left Side (Logo) */}
         <div>
@@ -39,7 +39,11 @@ const NavBar = () => {
           </NavBarButton>
         </div>
         <div
-          className={styles.hamburger}
+          className={`${styles.hamburger} ${isExpanded ? styles.expanded : ''}`}
+          role="button"
+          tabIndex={0}
+          onClick={() => setIsExpanded(!isExpanded)}
+          onKeyDown={() => setIsExpanded(!isExpanded)}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -57,6 +61,24 @@ const NavBar = () => {
           </svg>
         </div>
       </div>
+      {/* Mobile Navigation */}
+      {
+        isExpanded && (
+          <div
+            className={styles.mobileLinks}
+          >
+            <NavBarButton link="/#about">
+              About
+            </NavBarButton>
+            <NavBarButton link="/#members">
+              Members
+            </NavBarButton>
+            <NavBarButton link="/#contact">
+              Contact
+            </NavBarButton>
+          </div>
+        )
+      }
     </nav>
   );
 };
