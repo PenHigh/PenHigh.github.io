@@ -17,9 +17,7 @@ const Home = () => (
       </span>
     </div>
 
-    <div
-      id="about"
-    >
+    <div id="about">
       <span className={styles.header}>
         About Us
       </span>
@@ -42,9 +40,7 @@ const Home = () => (
       </p>
     </div>
 
-    <div
-      id="members"
-    >
+    <div id="members">
       <span className={styles.header}>
         Members
       </span>
@@ -69,9 +65,7 @@ const Home = () => (
       </div>
     </div>
 
-    <div
-      id="contact"
-    >
+    <div id="contact">
       <span className={styles.header}>
         Contact
       </span>
@@ -90,7 +84,7 @@ const Home = () => (
           PSS Coding Club
           <img alt="" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
         </a>
-        | Penticton Secondary - Empowering Students Through Technology
+        Penticton Secondary - Empowering Students Through Technology
       </span>
     </div>
   </div>
