@@ -84,6 +84,7 @@
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+
 .footer span {
   width: 100%;
   display: flex;
@@ -91,11 +92,13 @@
   align-items: center;
   justify-content: center;
 }
+
 .footer span a {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .footer span a img {
   width: 20px;
   margin-left: 3.25px;

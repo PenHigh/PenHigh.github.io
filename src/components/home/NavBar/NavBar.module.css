@@ -31,3 +31,44 @@
   justify-content: flex-end;
   align-items: center;
 }
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+    height: 100%;
+  }
+
+  .hamburger svg {
+    font-size: 2rem;
+    color: #27272a;
+    
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+  }
+
+  .hamburger svg:hover {
+    color: #6510a1;
+
+    transform: scale(1.1);
+
+    transition: all 0.3s ease;
+  }
+
+  .logo {
+    margin: 0px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
