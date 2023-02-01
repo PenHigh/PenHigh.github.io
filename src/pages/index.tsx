@@ -17,7 +17,7 @@ const Home = () => (
       </span>
     </div>
 
-    <div id="about">
+    <div id="about" className={styles.scroll}>
       <span className={styles.header}>
         About Us
       </span>
@@ -40,7 +40,7 @@ const Home = () => (
       </p>
     </div>
 
-    <div id="members">
+    <div id="members" className={styles.scroll}>
       <span className={styles.header}>
         Members
       </span>
@@ -65,7 +65,7 @@ const Home = () => (
       </div>
     </div>
 
-    <div id="contact">
+    <div id="contact" className={styles.scroll}>
       <span className={styles.header}>
         Contact
       </span>
