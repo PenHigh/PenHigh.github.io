@@ -1,11 +1,2 @@
-# -=- Node Modules -=-
-node_modules/
-
-# -=- NextJS -=-
-**/.next/**
-
-# -=- Enviornment Variables -=-
-**/.env.local
-
 # -=- Mac OS X -=-
 .DS_Store
